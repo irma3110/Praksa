@@ -1,0 +1,1 @@
+﻿CREATE TABLE [dbo].[Shopping]( [ShoppingID] [int] IDENTITY(1,1) NOT NULL,[ShoppingName] [nvarchar](150) NULL, [Address] [nvarchar](200) NULL, [Phone] [nvarchar](50) NULL,  CONSTRAINT[primary_key] PRIMARY KEY CLUSTERED  ( [ShoppingID] ASC))
